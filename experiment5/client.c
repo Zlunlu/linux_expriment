@@ -21,7 +21,8 @@ void saveData();
 
 #define PORT 4567
 
-char dir[50]="./clientData/";
+//clientData是自己建立的一个文件夹，指定文件保存地址
+char dir[50]="./clientData/"; 
 int *last_recv_msg_id;
 
 //先看服务器的代码
